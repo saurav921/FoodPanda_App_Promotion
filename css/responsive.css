@@ -1,0 +1,2042 @@
+/* Extra Small device responsive style Start */
+@media (min-width: 320px) and (max-width: 575.99px) {
+    /* common css */
+    .custom_btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_btn a {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    /* common css */
+
+    /* navber style  */
+    nav {
+        padding: 5px 10px !important;
+        border-radius: 0;
+        border: 0;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 100% !important;
+        z-index: 99999;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: 0;
+        outline: 0;
+        color: #D70F64;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    nav .logo img {
+        width: 140px;
+    }
+
+    nav .navbar-nav {
+        align-items: center;
+    }
+
+  
+
+    nav .nav_btn .my_btn {
+        border: 1px solid var(--main_color);
+        font-size: 14px;
+        font-weight: 400;
+        padding: 9px 15px;
+        border-radius: 0px;
+        margin-left: 20px;
+        margin: 0;
+        width: 100%;
+        
+        display: block;
+        text-align: center;
+    }
+
+    #banner_part .overlay .container {
+        margin-top: 0px;
+    }
+
+    #banner_part .overlay .title h1 {
+        font-size: 20px;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    #banner_part .overlay .title h1 span {
+        font-size: 20px;
+    }
+
+    #banner_part .overlay .title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 14px 0 27px;
+        text-align: justify;
+    }
+
+    #banner_part .overlay .app_btn a img {
+        width: 95px;
+    }
+
+    #banner_part .overlay .banner_mockup_img {
+        display: none;
+    }
+
+    #banner_part .overlay .banner_shape {
+        height: 80px;
+    }
+    /* navber style  */
+
+    /* Counter style  */
+    
+    #counter_part {
+        background: #ffffffb5;
+        margin: 0;
+    }
+
+    #counter_part .counter h2 {
+        font-size: 28px;
+    }
+
+    #counter_part .counter p {
+        font-size: 16px;
+    }
+    /* Counter style  */
+
+    /* About part responsive style */
+
+    #about_part {
+        padding: 50px 0;
+    }
+
+    #about_part .title h2 {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+
+    #about_part .title h2 span {
+        font-size: 38px;
+    }
+
+    #about_part .title p {
+        font-size: 14px;
+        width: 296px;
+        text-align: center;
+    }
+
+    #about_part .about_section{
+        padding-top: 14px;
+    }
+
+    #about_part .about_section img {
+        padding-bottom: 20px;
+    }
+
+    #about_part .first_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .first_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .thard_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .thard_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .about_text .text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #about_part .about_text .text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 8px 0 26px;
+        text-align: justify;
+    }
+
+    #about_part .image {
+        margin-top: 40px;
+    }
+    /* About part responsive style */
+
+
+    /* About part responsive style */
+
+    #features_part {
+        padding: 50px 0;
+    }
+
+    #features_part .title {
+        margin-bottom: 10px;
+    }
+
+    #features_part .title h2 {
+        font-size: 25px;
+    }
+
+    #features_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #features_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #features_part .feature_item {
+        padding: 13px 0;
+    }
+
+    #features_part .feature_item h4 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    #features_part .feature_item p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #features_part .image .mockup_img img {
+        width: 285px;
+    }
+
+    #features_part .main_slide {
+        position: relative;
+    }
+    
+    #features_part .main_slide img {
+        height: 455px;
+    }
+
+    #features_part .main_slide .slick-list {
+        margin: 133px 13px 30px 18px;
+        height: 432px;
+    }
+
+    #features_part .left_part .feature_item:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    /* features_part responsive style */
+
+
+    /* work part responsive style */
+
+    #appWork_part {
+        padding: 50px 0;
+    }
+
+    #appWork_part .title {
+        margin-bottom: 10px;
+    }
+
+    #appWork_part .title h2 {
+        font-size: 25px;
+    }
+
+    #appWork_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #appWork_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #appWork_part .main{
+        display: none;
+    }
+
+    #appWork_part .phn_responsive{
+        display: block;
+    }
+
+    #appWork_part .step_1 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_2 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_3 {
+        padding: 10px 0;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #appWork_part .step_4 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_5 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_6 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_7 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_8 {
+        padding: 10px 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    /* work part responsive style */
+
+
+    /* Order part responsive style */
+    #order_part {
+        padding: 50px 0;
+    }
+
+    #order_part .title h3 {
+        font-size: 24px;
+    }
+
+    #order_part .title h2 {
+        font-size: 36px;
+    }
+
+    #order_part .image{
+        margin-bottom: 30px;
+    }
+
+    #order_part .image .arrow1 {
+        display: none;
+    }
+    #order_part .image .arrow2 {
+        display: none;
+    }
+
+        #order_part .order_slider ul {
+            left: 50%;
+            top: 92%;
+            transform: translateY(-50%) translateX(-50%);
+            column-gap: 5px;
+        }
+
+                #order_part .order_slider ul li button {
+                    height: 66px;
+                    width: 32px;
+                    border-radius: 3px;
+                }
+
+    /* Order part responsive style */
+
+
+    /* review_part responsive style */
+    #review_part {
+        padding: 50px 0;
+    }
+
+    #review_part .title {
+        margin-bottom: 10px;
+    }
+
+    #review_part .title h2 {
+        font-size: 25px;
+    }
+
+    #review_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #review_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #review_part .slick-slide img {
+        width: 130px;
+    }
+
+    #review_part .customer_slide .customer .text i {
+        font-size: 12px;
+    }
+
+    #review_part .customer_slide .customer .text h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #review_part .customer_slide .customer .text p {
+        font-size: 10px;
+        width: 200px;
+    }
+
+    #review_part .next {
+        right: 52px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #review_part .prev {
+        left: 52px;
+        padding: 10px;
+        font-size: 20px;
+        z-index: 11;
+    }
+    /* review_part responsive style */
+
+    /* faq_part responsive style */
+    #faq_part {
+        padding: 50px 0;
+    }
+
+    #faq_part .title {
+        padding: 30px 0 26px;
+        text-align: center;
+    }
+
+    #faq_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #faq_part .title p {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    #faq_part .image{
+        margin-bottom: 20px;
+    }
+
+    #faq_part .accordion .accordion-item h2 .accordion-button{
+        font-size: 20px;
+    }
+
+    #faq_part .accordion .accordion-body h4{
+        font-size: 18px;
+    }
+
+    #faq_part .accordion .accordion-body ul li{
+        font-size: 14px;
+    }
+
+    #faq_part .accordion .accordion-body p{
+        font-size: 14px;
+    }
+    /* faq_part responsive style */
+
+    /* faq_part responsive style */
+    #partner_part{
+        padding: 50px 0;
+    }
+
+    #partner_part .title h2 {
+        font-size: 22px;
+        margin-bottom: 36px;
+    }
+
+    #partner_part .partner_slide .slick-center img{
+        transform: scale(1);
+    }
+
+    #partner_part .partner_slide .image img {
+        width: 90px;
+    }
+    /* faq_part responsive style */
+
+    /* footer responsive style */
+    footer .container .logo img {
+        width: 200px;
+    }
+
+    footer .container h3 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+
+    footer .container ul {
+        margin-bottom: 40px;
+    }
+
+    footer .container ul li {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    footer .container .popular_foods li {
+        font-size: 16px;
+    }
+
+    footer .icon {
+        margin: 10px 0 19px;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    footer .icon p {
+        font-size: 18px;
+    }
+
+    footer .icons {
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    footer .footer_text h2 {
+        font-size: 34px;
+    }
+
+    footer .footer_text p {
+        font-size: 16px;
+        width: 300px;
+        margin: 3px 0 30px;
+    }
+
+    footer .app_btn a img {
+        display: block;
+        width: 100px;
+    }
+
+    footer .copy_right p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    /* footer responsive style */
+}
+/* Extra Small device responsive style End */
+
+
+/* Small device responsive style Start */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /* common css */
+    .custom_btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_btn a {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    /* common css */
+
+    /* navber style  */
+    nav {
+        padding: 40px 0;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    nav .logo img {
+        width: 140px;
+    }
+
+    #banner_part .overlay .container {
+        margin-top: 0px;
+    }
+
+    #banner_part .overlay .title h1 {
+        font-size: 33px;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    #banner_part .overlay .title h1 span {
+        font-size: 35px;
+    }
+
+    #banner_part .overlay .title p {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 14px 0 27px;
+        text-align: center;
+    }
+
+    #banner_part .overlay .app_btn a img {
+        width: 160px;
+    }
+
+    #banner_part .overlay .banner_mockup_img {
+        display: none;
+    }
+
+    #banner_part .overlay .banner_shape {
+        height: 120px;
+    }
+    /* navber style  */
+
+    /* Counter style  */
+    
+    #counter_part {
+        background: #ffffffb5;
+        margin: 0;
+    }
+
+    #counter_part .counter h2 {
+        font-size: 28px;
+    }
+
+    #counter_part .counter p {
+        font-size: 16px;
+    }
+    /* Counter style  */
+
+    /* About part responsive style */
+
+    #about_part {
+        padding: 50px 0;
+    }
+
+    #about_part .title h2 {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+
+    #about_part .title h2 span {
+        font-size: 38px;
+    }
+
+    #about_part .title p {
+        font-size: 14px;
+        width: 296px;
+        text-align: center;
+    }
+
+    #about_part .about_section{
+        padding-top: 14px;
+    }
+
+    #about_part .about_section img {
+        padding-bottom: 20px;
+    }
+
+    #about_part .first_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .first_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .thard_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .thard_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .about_text .text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #about_part .about_text .text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 8px 0 26px;
+        text-align: justify;
+    }
+
+    #about_part .image {
+        margin-top: 40px;
+    }
+    /* About part responsive style */
+
+
+    /* About part responsive style */
+
+    #features_part {
+        padding: 50px 0;
+    }
+
+    #features_part .title {
+        margin-bottom: 10px;
+    }
+
+    #features_part .title h2 {
+        font-size: 25px;
+    }
+
+    #features_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #features_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #features_part .left_part {
+        text-align: right;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #features_part .right_part {
+        text-align: right;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #features_part .feature_item img {
+        width: 101px;
+        display: inline-block;
+        margin-left: 78px;
+    }
+
+    #features_part .feature_item {
+        padding: 13px 0;
+        flex-direction: column-reverse;
+    }
+
+    #features_part .right_part .feature_item {
+        padding: 13px 0;
+        flex-direction: column;
+    }
+
+    #features_part .feature_item h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #features_part .feature_item p {
+        font-size: 14px;
+        text-align: center;
+        width: 250px;
+        padding: 2px 10px;
+    }
+
+    #features_part .image .mockup_img img {
+        width: 484px;
+        border-radius: 55px;
+    }
+
+    #features_part .main_slide {
+        position: relative;
+    }
+    
+    #features_part .main_slide img {
+        height: 819px;
+    }
+
+    #features_part .main_slide .slick-list {
+        margin: 133px 46px 38px 46px;
+        height: 820px;
+    }
+    /* features_part responsive style */
+
+
+    /* work part responsive style */
+
+    #appWork_part {
+        padding: 50px 0;
+    }
+
+    #appWork_part .title {
+        margin-bottom: 10px;
+    }
+
+    #appWork_part .title h2 {
+        font-size: 32px;
+    }
+
+    #appWork_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #appWork_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #appWork_part .main{
+        display: none;
+    }
+
+    #appWork_part .phn_responsive{
+        display: block;
+    }
+
+    #appWork_part .step_1 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_2 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_3 {
+        padding: 10px 0;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #appWork_part .step_4 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_5 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_6 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_7 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_8 {
+        padding: 10px 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    /* work part responsive style */
+
+
+    /* Order part responsive style */
+    #order_part {
+        padding: 50px 0;
+    }
+
+    #order_part .title h3 {
+        font-size: 24px;
+    }
+
+    #order_part .title h2 {
+        font-size: 36px;
+    }
+
+    #order_part .image{
+        margin-bottom: 30px;
+    }
+
+    #order_part .image img {
+        border-radius: 46px;
+    }
+
+    #order_part .image .arrow1 {
+        display: none;
+    }
+    #order_part .image .arrow2 {
+        display: none;
+    }
+
+    /* Order part responsive style */
+
+
+    /* review_part responsive style */
+    #review_part {
+        padding: 50px 0;
+    }
+
+    #review_part .title {
+        margin-bottom: 10px;
+    }
+
+    #review_part .title h2 {
+        font-size: 31px;
+    }
+
+    #review_part .title p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    #review_part .title h2 span {
+        font-size: 34px;
+    }
+
+    #review_part .slick-slide img {
+        width: 130px;
+    }
+
+    #review_part .customer_slide .customer .text i {
+        font-size: 12px;
+    }
+
+    #review_part .customer_slide .customer .text h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #review_part .customer_slide .customer .text p {
+        font-size: 10px;
+        width: 200px;
+    }
+
+    #review_part .next {
+        right: 52px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #review_part .prev {
+        left: 52px;
+        padding: 10px;
+        font-size: 20px;
+        z-index: 11;
+    }
+    /* review_part responsive style */
+
+    /* faq_part responsive style */
+    #faq_part {
+        padding: 50px 0;
+    }
+
+    #faq_part .title {
+        padding: 30px 0 26px;
+        text-align: center;
+    }
+
+    #faq_part .title h2 span {
+        font-size: 50px;
+    }
+
+    #faq_part .title p {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    #faq_part .image{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq_part .image img {
+        width: 90%;
+    }
+
+    #faq_part .accordion .accordion-item h2 .accordion-button{
+        font-size: 20px;
+    }
+
+    #faq_part .accordion .accordion-body h4{
+        font-size: 18px;
+    }
+
+    #faq_part .accordion .accordion-body ul li{
+        font-size: 14px;
+    }
+
+    #faq_part .accordion .accordion-body p{
+        font-size: 14px;
+    }
+    /* faq_part responsive style */
+
+    /* faq_part responsive style */
+    #partner_part{
+        padding: 50px 0;
+    }
+
+    #partner_part .title h2 {
+        font-size: 35px;
+        margin-bottom: 36px;
+    }
+
+    /* faq_part responsive style */
+
+    /* footer responsive style */
+    footer .container .logo img {
+        width: 200px;
+    }
+
+    footer .container h3 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+
+    footer .container ul {
+        margin-bottom: 40px;
+    }
+
+    footer .container ul li {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer .container ul li a {
+        color: #ffffff;
+        transition: .4s;
+        font-size: 20px;
+    }
+
+    footer .container .popular_foods li {
+        font-size: 20px;
+    }
+
+    footer .icon {
+        margin: 10px 0 19px;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    footer .icon p {
+        font-size: 18px;
+    }
+
+    footer .icons {
+        justify-content: center;
+        margin: 0;
+        transform: translateX(-56%);
+    }
+
+    footer .footer_text h2 {
+        font-size: 48px;
+    }
+
+    footer .footer_text p {
+        font-size: 19px;
+        width: 315px;
+        margin: 3px 0 30px;
+    }
+
+    footer .app_btn a img {
+        display: block;
+        width: 167px;
+    }
+
+    footer .copy_right p {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    /* footer responsive style */
+}
+/* Small device responsive style End */
+
+
+/* Medium device responsive style Start */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /* common css */
+    .custom_btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_btn a {
+        padding: 12px 18px;
+        font-size: 20px;
+    }
+    /* common css */
+
+    /* navber style  */
+    nav {
+        padding: 40px 0;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    nav .logo img {
+        width: 140px;
+    }
+
+    /* ======================== */
+    #banner_part .overlay .container {
+        margin-top: 0px;
+    }
+
+    #banner_part .overlay .title h1 {
+        font-size: 33px;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    #banner_part .overlay .title h1 span {
+        font-size: 35px;
+    }
+
+    #banner_part .overlay .title p {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 14px 30px 27px;
+        text-align: center;
+    }
+
+    #banner_part .overlay .app_btn a img {
+        width: 170px;
+    }
+
+    #banner_part .overlay .banner_mockup_img {
+        display: none;
+    }
+
+    #banner_part .overlay .banner_shape {
+        height: 120px;
+    }
+    /* navber style  */
+
+    /* Counter style  */
+    
+    #counter_part {
+        background: #ffffffb5;
+        margin: 0;
+    }
+
+    #counter_part .counter h2 {
+	font-size: 35px;
+    }
+
+    #counter_part .counter p {
+        font-size: 20px;
+    }
+    /* Counter style  */
+
+    /* About part responsive style */
+
+    #about_part {
+        padding: 50px 0;
+    }
+
+    #about_part .title h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    #about_part .title h2 span {
+        font-size: 50px;
+    }
+
+    #about_part .title p {
+        font-size: 20px;
+        width: 450px;
+        text-align: center;
+    }
+
+    #about_part .about_section{
+        padding-top: 14px;
+    }
+
+    #about_part .about_section img {
+        padding-bottom: 20px;
+    }
+
+    #about_part .first_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .first_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .thard_row .col-lg-6:first-child{
+        order: 2;
+    }
+
+    #about_part .thard_row .col-lg-6:nth-child(2){
+        order: 1;
+    }
+
+    #about_part .about_text .text h3 {
+        text-align: center;
+    }
+
+    #about_part .about_text .text p {
+        line-height: 24px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #about_part .image {
+        margin-top: 40px;
+    }
+    /* About part responsive style */
+
+
+    /* About part responsive style */
+
+    #features_part {
+        padding: 50px 0;
+    }
+
+    #features_part .title {
+        margin-bottom: 10px;
+    }
+
+    #features_part .title h2 {
+        font-size: 40px;
+    }
+
+    #features_part .title p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    #features_part .title h2 span {
+        font-size: 40px;
+    }
+
+    #features_part .left_part {
+        text-align: right;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 80px;
+    }
+
+    #features_part .right_part {
+        text-align: right;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 80px;
+    }
+
+    #features_part .feature_item img {
+        width: 120px;
+        display: inline-block;
+        margin-left: 65px;
+    }
+
+    #features_part .feature_item {
+        padding: 13px 0;
+        flex-direction: column-reverse;
+    }
+
+    #features_part .right_part .feature_item {
+        padding: 13px 0;
+        flex-direction: column;
+    }
+
+    #features_part .feature_item h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #features_part .feature_item p {
+        font-size: 16px;
+        text-align: center;
+        width: 250px;
+        padding: 2px 10px;
+    }
+
+    #features_part .image .mockup_img img {
+        width: 484px;
+        border-radius: 55px;
+    }
+
+    #features_part .main_slide {
+        position: relative;
+    }
+    
+    #features_part .main_slide img {
+        height: 819px;
+    }
+
+    #features_part .main_slide .slick-list {
+        margin: 135px 150px 45px;
+        height: 820px;
+    }
+    /* features_part responsive style */
+
+
+    /* work part responsive style */
+
+    #appWork_part {
+        padding: 50px 0;
+    }
+
+    #appWork_part .title {
+        margin-bottom: 10px;
+    }
+
+    #appWork_part .main{
+        display: none;
+    }
+
+    #appWork_part .phn_responsive{
+        display: block;
+    }
+
+    #appWork_part .phn_responsive .work_step{
+        margin-top: 50px;
+    }
+
+    #appWork_part .step_1 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_2 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_3 {
+        padding: 10px 0;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #appWork_part .step_4 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_5 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_6 {
+        padding: 10px 0;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    #appWork_part .step_7 {
+        padding: 10px 0;
+    }
+
+    #appWork_part .step_8 {
+        padding: 10px 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    /* work part responsive style */
+
+
+    /* Order part responsive style */
+    #order_part {
+        padding: 50px 0;
+    }
+
+    #order_part .image{
+        margin-bottom: 30px;
+    }
+
+    #order_part .image img{
+        border-radius: 62px;
+    }
+
+    #order_part .image .arrow1 {
+        display: none;
+    }
+    #order_part .image .arrow2 {
+        display: none;
+    }
+
+    /* Order part responsive style */
+
+
+    /* review_part responsive style */
+    #review_part {
+        padding: 50px 0;
+    }
+
+    #review_part .title {
+        margin-bottom: 10px;
+    }
+
+    #review_part .slick-slide img {
+        width: 130px;
+    }
+
+    #review_part .customer_slide .customer .text i {
+        font-size: 12px;
+    }
+
+    #review_part .customer_slide .customer .text h5 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #review_part .customer_slide .customer .text p {
+        font-size: 11px;
+        width: 172px;
+    }
+
+    #review_part .next {
+        right: 52px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #review_part .prev {
+        left: 52px;
+        padding: 10px;
+        font-size: 20px;
+        z-index: 11;
+    }
+    /* review_part responsive style */
+
+    /* faq_part responsive style */
+    #faq_part {
+        padding: 50px 0;
+    }
+
+    #faq_part .title {
+        padding: 30px 0 26px;
+        text-align: center;
+    }
+
+    #faq_part .title h2 span {
+        font-size: 50px;
+    }
+
+    #faq_part .title p {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    #faq_part .image{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq_part .image img {
+        width: 90%;
+    }
+
+    #faq_part .accordion .accordion-item h2 .accordion-button{
+        font-size: 20px;
+    }
+
+    #faq_part .accordion .accordion-body h4{
+        font-size: 18px;
+    }
+
+    #faq_part .accordion .accordion-body ul li{
+        font-size: 14px;
+    }
+
+    #faq_part .accordion .accordion-body p{
+        font-size: 14px;
+    }
+    /* faq_part responsive style */
+
+    /* faq_part responsive style */
+    #partner_part{
+        padding: 50px 0;
+    }
+
+    /* faq_part responsive style */
+
+    /* footer responsive style */
+    footer .container .logo img {
+        width: 200px;
+    }
+
+    footer .container h3 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+
+    footer .container ul {
+        margin-bottom: 40px;
+    }
+
+    footer .container ul li {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer .container ul li a {
+        color: #ffffff;
+        transition: .4s;
+        font-size: 20px;
+    }
+
+    footer .container .popular_foods li {
+        font-size: 20px;
+    }
+
+    footer .icon {
+        margin: 10px 0 19px;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    footer .icon p {
+        font-size: 18px;
+    }
+
+    footer .icons {
+        justify-content: center;
+        margin: 0;
+        transform: translateX(-56%);
+    }
+
+    footer .footer_text h2 {
+        font-size: 48px;
+    }
+
+    footer .footer_text p {
+        font-size: 19px;
+        width: 315px;
+        margin: 3px 0 30px;
+    }
+
+    footer .app_btn a img {
+        display: block;
+        width: 167px;
+    }
+
+    footer .copy_right p {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    /* footer responsive style */
+}
+/* Medium device responsive style End */
+
+
+/* Large device responsive style Start */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /* common css */
+    .custom_btn a {
+        padding: 12px 18px;
+        font-size: 20px;
+    }
+    /* common css */
+
+    /* navber style  */
+    nav .container {
+        padding: 7px 10px;
+        column-gap: 88px;
+    }
+
+    nav .logo img {
+        width: 170px;
+    }
+
+    nav .navbar-nav {
+        column-gap: 8px;
+    }
+
+    nav .nav_btn:hover .my_btn {
+        background: var(--btn_bg_linear_color);
+        color: #ffffff;
+        border: 2px solid #f25c84;
+    }
+    /* navber style  */
+
+    /* Banner responsive style */
+    #banner_part .overlay .container {
+        margin-top: 200px;
+    }
+
+    #banner_part .overlay .title h1 {
+        font-size: 33px;
+        line-height: normal;
+    }
+    #banner_part .overlay .title h1 span {
+        font-size: 35px;
+    }
+
+    #banner_part .overlay .title p {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #banner_part .overlay .app_btn a img {
+        width: 180px;
+    }
+
+    #banner_part .overlay .banner_mockup_img .phn_mockup{
+        display: flex;
+        justify-content: center;
+    }
+
+    #banner_part .overlay .banner_mockup_img .phn_mockup .main_img {
+        width: 250px;
+    }
+
+    #banner_part .overlay .banner_mockup_img .main_img_1 {
+        width: 245px;
+        right: 40px;
+        top: 18px;
+    }
+
+    #banner_part .overlay .banner_mockup_img .main_img_2 {
+        width: 245px;
+        left: 35px;
+        top: 93px;
+    }
+
+    #banner_part .overlay .banner_mockup_img .main_img_3 {
+        width: 245px;
+        right: 35px;
+        top: 239px;
+    }
+
+    #banner_part .overlay .banner_shape {
+        height: 120px;
+    }
+    /* Banner responsive style */
+
+    /* Counter style  */
+    
+    #counter_part {
+        background: #ffffffb5;
+        margin: 0;
+    }
+
+    #counter_part .counter h2 {
+	font-size: 35px;
+    }
+
+    #counter_part .counter p {
+        font-size: 20px;
+    }
+    /* Counter style  */
+
+    /* About part responsive style */
+
+    #about_part {
+        padding: 100px 0 50px;
+    }
+
+    #about_part .title p {
+        font-size: 18px;
+    }
+
+    #about_part .about_section {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #about_part .image {
+        margin-top: 40px;
+    }
+
+    #about_part .image img {
+        width: 100%;
+    }
+    /* About part responsive style */
+
+
+    /* features_part responsive style */
+
+    #features_part {
+        padding: 100px 0 50px;
+    }
+
+    #features_part .title {
+        margin-bottom: 10px;
+    }
+
+    #features_part .feature_item {
+        display: flex;
+        padding: 9px 0;
+        column-gap: 12px;
+    }
+
+    #features_part .feature_item h4 {
+        font-size: 20px;
+    }
+
+    #features_part .feature_item p {
+        font-size: 15px;
+    }
+
+    #features_part .image .mockup_img img {
+        width: 346px;
+    }
+
+    #features_part .main_slide {
+        width: 105%;
+    }
+
+    #features_part .main_slide img {
+        height: 575px;
+    }
+
+    #features_part .main_slide .slick-list {
+        margin: 120px 20px 0px;
+    }
+
+    /* features_part responsive style */
+
+
+    /* work part responsive style */
+
+    #appWork_part {
+        padding: 100px 0 50px;
+    }
+
+    #appWork_part .title {
+        margin-bottom: 10px;
+    }
+
+    #appWork_part .main{
+        display: block;
+    }
+
+    #appWork_part .work_step {
+        border: 3px solid #D70F64;
+        height: 190px;
+        width: 190px;
+    } 
+
+    #appWork_part .work_step h3 {
+        font-size: 30px;
+    }
+
+    #appWork_part .work_step h4 {
+        font-size: 20px;
+    }
+
+    #appWork_part .work_step p {
+        font-size: 15px;
+    }
+
+    #appWork_part .step_panda .image img {
+        width: 360px;
+    }
+
+    #appWork_part .arrow01 {
+        width: 60px;
+    }
+
+    #appWork_part .arrow01 {
+        width: 60px;
+    }
+
+    #appWork_part .arrow02 {
+        width: 60px;
+        transform: rotate(37deg);
+    }
+
+    #appWork_part .arrow03 {
+        width: 60px;
+        top: 286px;
+        left: 130px;
+        transform: rotate(83deg);
+    }
+
+    #appWork_part .arrow04 {
+        width: 60px;
+        top: 133px;
+        right: -14px;
+    }
+
+    #appWork_part .arrow05 {
+        width: 60px;
+        top: 144px;
+        left: -2px;
+        transform: rotate(177deg);
+    }
+
+    #appWork_part .arrow06 {
+        width: 60px;
+        bottom: 27px;
+        right: 124px;
+        transform: rotate(226deg);
+    }
+
+    #appWork_part .arrow07 {
+        width: 60px;
+        top: 30px;
+        right: 138px;
+    }
+
+    #appWork_part .phn_responsive{
+        display: none;
+    }
+    /* work part responsive style */
+
+
+    /* Order part responsive style */
+
+    #order_part .image .arrow1 {
+        transform: translateX(-165%);
+        position: absolute;
+        width: 100px;
+    }
+
+    #order_part .image .arrow2 {
+        transform: translateX(165%);
+        position: absolute;
+        width: 100px;
+    }
+    
+    /* Order part responsive style */
+
+
+    /* review_part responsive style */
+    #review_part {
+        padding: 100px 0 50px;
+    }
+
+    #review_part .title {
+        margin-bottom: 10px;
+    }
+
+    #review_part .slick-slide img {
+        width: 150px;
+    }
+
+    #review_part .customer_slide .customer .text i {
+        font-size: 14px;
+    }
+
+    #review_part .customer_slide .customer .text h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #review_part .customer_slide .customer .text p {
+        font-size: 12px;
+        width: 218px;
+    }
+
+    #review_part .next {
+        right: 52px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #review_part .prev {
+        left: 52px;
+        padding: 10px;
+        font-size: 20px;
+        z-index: 11;
+    }
+    /* review_part responsive style */
+
+    /* faq_part responsive style */
+    #faq_part {
+        padding: 100px 0 50px;
+    }
+
+    #faq_part .title {
+        padding: 30px 0 26px;
+        text-align: center;
+    }
+
+    #faq_part .title h2 span {
+        font-size: 50px;
+    }
+
+    #faq_part .title p {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    #faq_part .image{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #faq_part .image img {
+        width: 100%;
+    }
+
+    #faq_part .accordion .accordion-item h2 .accordion-button{
+        font-size: 20px;
+    }
+
+    #faq_part .accordion .accordion-body h4{
+        font-size: 18px;
+    }
+
+    #faq_part .accordion .accordion-body ul li{
+        font-size: 14px;
+    }
+
+    #faq_part .accordion .accordion-body p{
+        font-size: 14px;
+    }
+    /* faq_part responsive style */
+
+    /* faq_part responsive style */
+    #partner_part{
+        padding: 50px 0;
+    }
+
+    /* faq_part responsive style */
+
+    /* footer responsive style */
+
+    footer .overlay {
+        padding-top: 60px 0;
+    }
+
+    footer .container .logo img {
+        width: 240px;
+    }
+
+    footer .container h3 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+
+    footer .container ul {
+        margin-bottom: 40px;
+    }
+
+    footer .container ul li {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer .container ul li a {
+        color: #ffffff;
+        transition: .4s;
+        font-size: 20px;
+    }
+
+    footer .container .popular_foods li {
+        font-size: 20px;
+    }
+
+    footer .icon {
+        margin: 10px 0 19px;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    footer .icon p {
+        font-size: 18px;
+    }
+
+    footer .icons {
+        justify-content: center;
+        margin: 0;
+        transform: translateX(-5%);
+    }
+    /* footer responsive style */
+}
+/* Large device responsive style End */
+
+/* XL device responsive style start */
+@media (min-width: 1200px) and (max-width: 1320px){
+    /* navber style  */
+    nav .container {
+        padding: 5px;
+        column-gap: 150px;
+    }
+
+    nav .nav_btn:hover .my_btn {
+        background: var(--btn_bg_linear_color);
+        color: #ffffff;
+        border: 2px solid #f25c84;
+    }
+    /* navber style  */
+
+    /* banner_part style  */
+    #banner_part .overlay .banner_mockup_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transform: scale(.8);
+    }
+
+    #banner_part .overlay .banner_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: scale(.8);
+    }
+    /* banner_part style  */
+
+
+    /* order_part style  */
+    #order_part .image .arrow1 {
+        transform: translateX(-184%);
+        position: absolute;
+        width: 110px;
+    }
+    #order_part .image .arrow2 {
+        transform: translateX(184%);
+        position: absolute;
+        width: 110px;
+    }
+    /* order_part style  */
+
+
+    /* review_part style  */
+    #review_part{
+        padding:100px 20px 50px;
+    }
+
+    #review_part .title {
+        text-align: center;
+        padding: 0 0 30px;
+    }
+
+
+    #review_part .slick-slide img {
+        display: block;
+        width: 170px;
+    }
+
+    #review_part .slick-slide {
+        margin: 0 35px;
+        padding: 20px;
+    }
+
+    #review_part .prev {
+        left: 75px;
+        font-size: 15px;
+        z-index: 11;
+    }
+
+    #review_part .next {
+        right: 75px;
+        font-size: 15px;
+    }
+     /* review_part style  */
+
+    #faq_part .title {
+        padding: 0 0 30px;
+        text-align: center;
+    }
+}
+/* XL device responsive style End */
